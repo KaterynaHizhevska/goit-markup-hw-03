@@ -12,6 +12,9 @@ body {
   background-color: #FFFFFF;
 
 }
+img {
+  display: block;
+}
 
 .header-nav {
   display: flex;
@@ -69,6 +72,8 @@ address {
 .header-address-list {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
+  
 }
 
 .header-address-item:first-child {
