@@ -32,6 +32,10 @@ body {
   color: #404BBF;
 }
 
+.header-nav-list {
+  padding: 24px 0;
+}
+
 .header-nav__logo-iris-link {
   font-family: "Raleway", sans-serif;
   color: #4D5AE5;
@@ -40,6 +44,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-nav__logo-navy-link {
@@ -50,9 +55,12 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 address {
   font-style: normal;
+  display: flex;
+  gap: 40px;
 }
 
 .section {
@@ -63,6 +71,9 @@ address {
 .container {
   display: inline;
   align-content: center;
+  width: 1158px;
+  margin: 0;
+  padding: 0 15px;
 }
 
 .header-address-link {
@@ -85,12 +96,10 @@ header {
 
 }
 
-.header-container .container {
+.header-container {
   display: flex;
-  width: 1158px;
-  margin: 0;
-  padding: 0 15px;
 }
+
 
 .hero {
   background-color: #2E2F42;
