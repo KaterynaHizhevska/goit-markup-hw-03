@@ -168,12 +168,18 @@ border-radius: 4px;
   padding: 120px 0;
 }
 
+.company-list {
+  display: flex;
+  gap: 24px;
+}
+
 .company-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2E2F42;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .company-text {
@@ -184,6 +190,9 @@ border-radius: 4px;
   letter-spacing: 0.02em;
 }
 
+.company-item {
+  width: calc((100% - 72px) / 4);
+}
 .team {
   background-color:#F4F4FD;
 }
