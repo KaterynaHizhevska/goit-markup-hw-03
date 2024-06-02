@@ -67,9 +67,7 @@ img {
   padding: 24px 0;
   margin: 0;
 }
-.header-nav-item {
-  
-}
+
 address {
   font-style: normal;
 }
@@ -127,7 +125,7 @@ header {
 }
 
 
-.hero {
+.hero-container {
   background-color: #2E2F42;
 }
 
