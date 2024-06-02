@@ -29,6 +29,7 @@ img {
   letter-spacing: 0.02em;
   padding: 24px 0;
   margin: 0;
+  
 }
 
 .header-nav-link:hover,
@@ -66,7 +67,9 @@ img {
   padding: 24px 0;
   margin: 0;
 }
-
+.header-nav-item {
+  
+}
 address {
   font-style: normal;
 }
