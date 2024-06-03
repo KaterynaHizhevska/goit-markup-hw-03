@@ -92,10 +92,6 @@ address {
 .header-address-item:last-child {
   margin-right: 0;
 }
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .container {
   width: 1158px;
